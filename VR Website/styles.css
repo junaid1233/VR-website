@@ -1,0 +1,241 @@
+General styles
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: relative;
+}
+
+/* .navbar {
+  margin-bottom: 0;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-item .nav-link {
+  font-size: 1rem;
+  margin-right: 20px;
+} */
+
+.navbar {
+  padding: 1rem 2rem;
+  background: #ea5e5e;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  height: 60px; /* Adjust as needed */
+  width: auto;
+}
+
+.nav-link {
+  color: #333;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+
+/* Carousel Styles */
+.carousel-item img {
+  height: 500px;
+  object-fit: cover;
+  width: 100%;
+}
+
+/* Text Content Section */
+.text-content {
+  padding: 60px 0;
+  background: #f8f9fa;
+  text-align: center;
+}
+
+.text-content h1 {
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+}
+
+.text-content p {
+  font-size: 1.2rem;
+}
+
+/* Text Columns Section */
+.text-columns {
+  padding: 60px 0;
+}
+
+.text-columns .row {
+  display: flex;
+}
+
+.text-columns .col-md-4 {
+  margin-bottom: 20px;
+}
+
+.text-columns h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.text-columns p {
+  font-size: 1rem;
+}
+
+/* Image and Text Section */
+.image-text {
+  padding: 60px 0;
+  background: #f1f1f1;
+}
+
+.image-text img {
+  width: 100%;
+  height: auto;
+}
+
+/* Background Image Section */
+.background-image {
+  position: relative;
+  height: 500px;
+  background: url('./images/9.jpg') no-repeat center center;
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.background-image .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.background-image h2 {
+  font-size: 2rem;
+}
+
+.background-image p {
+  font-size: 1.2rem;
+}
+
+/* Image Gallery Section */
+.image-gallery {
+  padding: 60px 0;
+}
+
+.image-gallery .img-thumbnail {
+  transition: transform 0.3s;
+}
+
+.image-gallery .img-thumbnail:hover {
+  transform: scale(1.1);
+}
+
+/* Text Slider Section */
+.text-slider {
+  padding: 60px 0;
+}
+
+.text-slider .carousel-inner p {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Footer Styles */
+footer {
+  padding: 40px 0;
+  background: #343a40;
+  color: #fff;
+}
+
+footer h4 {
+  font-size: 1.25rem;
+  margin-bottom: 20px;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer ul li {
+  margin-bottom: 10px;
+}
+
+footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer ul li a:hover {
+  text-decoration: underline;
+}
+
+footer p {
+  font-size: 0.9rem;
+}
+
+footer p a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer p a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  footer {
+      text-align: center;
+  }
+
+  footer .row {
+      flex-direction: column;
+  }
+
+  footer .col-md-3 {
+      margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar {
+      padding: 1rem;
+  }
+
+  .logo-img {
+      height: 50px; /* Adjust for smaller screens */
+  }
+
+  .nav-link {
+      font-size: 0.9rem;
+  }
+}
